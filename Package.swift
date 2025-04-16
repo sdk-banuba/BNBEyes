@@ -1,7 +1,7 @@
 // swift-tools-version:5.3
 import PackageDescription
 
-let bnbPackageVersion: Version = "1.17.0-33-g2b785861d0"
+let bnbPackageVersion: Version = "1.17.1"
 
 let package = Package(
     name: "BNBEyes",
@@ -41,8 +41,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "BNBEyes",
-            url: "https://d2cm7wtcqqw29.cloudfront.net/1.17.0-33-g2b785861d0/BNBEyes.zip",
-            checksum: "b8096bcc16295cb61e9a5a2e690444704c6446d6dfaf604de102daa529e5e777"
+            url: "https://d2cm7wtcqqw29.cloudfront.net/1.17.1/BNBEyes.zip",
+            checksum: "aafb3837b0d51d86527336ddadf60fc1ff072e3703b669a89e0220fe26e6b0df"
         ),
         .target(
             name: "BNBEyes_BNBSdkCore",
